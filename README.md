@@ -1,4 +1,4 @@
 open-bike-challenge
 ===================
 
-http://semerj.github.io/open-bike-challenge
+http://bayareabikeshare.com/datachallenge
