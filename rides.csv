@@ -1,36 +1,36 @@
-name,color
-5th at Howard,#0571B0
-Civic Center BART (7th at Market),#0571B0
-Clay at Battery,#0571B0
-Davis at Jackson,#0571B0
-Embarcadero at Bryant,#0571B0
-Golden Gate at Polk,#0571B0
-Grant Avenue at Columbus Avenue,#0571B0
-Market at 10th,#0571B0
-Market at 4th,#0571B0
-Mechanics Plaza (Market at Battery),#0571B0
-Post at Kearney,#0571B0
-Powell Street BART,#0571B0
-Yerba Buena Center of the Arts (3rd @ Howard),#0571B0
-2nd at Townsend,#92C5DE
-Beale at Market,#92C5DE
-Embarcadero at Folsom,#92C5DE
-South Van Ness at Market,#92C5DE
-Steuart at Market,#92C5DE
-Embarcadero at Sansome,#CA0020
-Embarcadero at Vallejo,#CA0020
-Harry Bridges Plaza (Ferry Building),#CA0020
-Powell at Post (Union Square),#CA0020
-San Francisco City Hall,#CA0020
-Washington at Kearney,#CA0020
-San Francisco Caltrain (Townsend at 4th),#F4A582
-San Francisco Caltrain 2 (330 Townsend),#F4A582
-Temporary Transbay Terminal (Howard at Beale),#F4A582
-2nd at Folsom,#F7F7F7
-2nd at South Park,#F7F7F7
-Broadway St at Battery St,#F7F7F7
-Commercial at Montgomery,#F7F7F7
-Howard at 2nd,#F7F7F7
-Market at Sansome,#F7F7F7
-Spear at Folsom,#F7F7F7
-Townsend at 7th,#F7F7F7
+"name","color"
+"5th at Howard","#0571B0"
+"Civic Center BART (7th at Market)","#0571B0"
+"Clay at Battery","#0571B0"
+"Davis at Jackson","#0571B0"
+"Embarcadero at Bryant","#0571B0"
+"Golden Gate at Polk","#0571B0"
+"Grant Avenue at Columbus Avenue","#0571B0"
+"Market at 10th","#0571B0"
+"Market at 4th","#0571B0"
+"Mechanics Plaza (Market at Battery)","#0571B0"
+"Post at Kearney","#0571B0"
+"Powell Street BART","#0571B0"
+"Yerba Buena Center of the Arts (3rd @ Howard)","#0571B0"
+"2nd at Townsend","#92C5DE"
+"Beale at Market","#92C5DE"
+"Embarcadero at Folsom","#92C5DE"
+"South Van Ness at Market","#92C5DE"
+"Steuart at Market","#92C5DE"
+"Embarcadero at Sansome","#CA0020"
+"Embarcadero at Vallejo","#CA0020"
+"Harry Bridges Plaza (Ferry Building)","#CA0020"
+"Powell at Post (Union Square)","#CA0020"
+"San Francisco City Hall","#CA0020"
+"Washington at Kearney","#CA0020"
+"San Francisco Caltrain (Townsend at 4th)","#F4A582"
+"San Francisco Caltrain 2 (330 Townsend)","#F4A582"
+"Temporary Transbay Terminal (Howard at Beale)","#F4A582"
+"2nd at Folsom","#F7F7F7"
+"2nd at South Park","#F7F7F7"
+"Broadway St at Battery St","#F7F7F7"
+"Commercial at Montgomery","#F7F7F7"
+"Howard at 2nd","#F7F7F7"
+"Market at Sansome","#F7F7F7"
+"Spear at Folsom","#F7F7F7"
+"Townsend at 7th","#F7F7F7"
