@@ -110,9 +110,7 @@
                   + (d.angle > Math.PI ? "rotate(180)" : "");
             })
             .style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
-            .text(function(d, i) {
-              return rides[i].name.split(" ").join("\r\n").toString();
-            });
+            .text(function(d, i) { return rides[i].name; });
 
         // Add the chords.
         var chord = svg.selectAll(".chord")
