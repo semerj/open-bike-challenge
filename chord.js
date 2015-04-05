@@ -38,7 +38,7 @@ d3.select("#slider").on('change', function(d) {
 });
 
 d3.csv("rides.csv", function(rides) {
-  d3.json("foo.json", function(matrix) {
+  d3.json("rides_ym.json", function(matrix) {
     matrices = matrix,
     years    = Object.keys(matrices).sort(),
     current  = years[0],
