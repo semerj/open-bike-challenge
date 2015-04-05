@@ -2,48 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Info 247: Chord Diagram</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
     <style>
+      html, body {
+        font: 10px sans-serif;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-    html, body {
-      font: 10px sans-serif;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+      #chart {
+        text-align: center;
+        height: 100%;
+      }
 
-    #container {
-      text-align: center;
-      height: 100%;
-      position: relative;
-    }
+      .chord path, .arc {
+        fill-opacity: .67;
+        stroke: #000;
+        stroke-width: .25px;
+      }
 
-    .chord {
-      fill-opacity: .67;
-    }
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
 
-    #circle circle {
-      fill: none;
-      pointer-events: all;
-    }
+      #circle:hover path.fade {
+        display: none;
+      }
 
-    .group path {
-      fill-opacity: .5;
-    }
+      #control {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        font-size: 200%;
+      }
 
-    path.chord {
-      stroke: #000;
-      stroke-width: .25px;
-    }
-
-    #circle:hover path.fade {
-      display: none;
-    }
+      #control label {
+      }
     </style>
   </head>
   <body>
-    <div id="container"></div>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="chord.js"></script>
+    <div id="control">
+      <label>Show flows for </label>
+      <label id="month" name="month">08</label>,
+      <label id="year" name="year">2013</label>:
+      <form>
+        <input id="slider" type="range" name="slider" min="0" max="7" value="0" step="1"/>
+      </form>
+    </div>
+    <div id="chart"></div>
+    <script type="text/javascript" src="chord.js"></script>
   </body>
 </html>
+
