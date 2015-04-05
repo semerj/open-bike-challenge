@@ -1,3 +1,9 @@
+/*
+   Visualization based on:
+   https://gist.github.com/carsonfarmer/11478345
+   http://bl.ocks.org/carsonfarmer/11478345
+*/
+
 var data,
     matrices,
     stations,
