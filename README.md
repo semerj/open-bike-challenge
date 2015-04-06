@@ -1,7 +1,7 @@
 Bay Area Bike Share: D3 Chord Diagram Visualization
 ===================
 
-SF Bay Area Bike Share data [visualization]([http://semerj.github.io/open-bike-challenge]) using D3 and sliders for filtering between year-month combinations.
+SF Bay Area Bike Share data [visualization](http://semerj.github.io/open-bike-challenge) using D3 and sliders for filtering between year-month combinations.
 
 The slider functionality is based on code from [Carson Farmer](http://bl.ocks.org/carsonfarmer/11478345). Colors are based on neighborhood and are ordered to appear near each other. 
 
