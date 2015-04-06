@@ -69,6 +69,6 @@ ix = pd.MultiIndex.from_product([ym_index, station_index], names=['YearMonth', '
 sf_wide = sf_wide.reindex(ix)
 
 with open("rides_ym.json", "w") as outfile:
-    json_data = {ym: sf_wide[sf_wide.index.get_level_values(0) == ym].T.as_matrix().tolist() for ym in ym_index}
+    json_data = {ym: sf_wide[sf_wide.index.get_level_values(0) == ym].as_matrix().tolist() for ym in ym_index}
     json.dump(json_data, outfile)
 
