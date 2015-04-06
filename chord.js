@@ -17,7 +17,7 @@ var width = 1100,
     height = 1000,
     padding = 150,
     r0 = (Math.min(width, height)-padding * 2) * 0.41,
-    r1 = r0 * 1.1;
+    r1 = r0 * 1.05;
 
 var svg = d3.select("#chart").append("svg")
     .attr("width", width)
